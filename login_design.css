@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Open Sans', sans-serif;
+ background-color: #f5f6fa;
+ text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    border-radius: 5px;;
+    background-color: #0984e3;
+    color: #f5f6fa;
+    font-family: inherit;
+}
+nav h2{
+margin-left: 10px;
+}
+nav i{
+    margin-right: 10px;
+    position: relative;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+    padding:10px;
+    font-family: inherit;
+    margin:0 auto;
+}
+.container i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+form input{
+padding:10px 35px;
+margin-top: 8px;
+border-radius: 5px;
+font-family: inherit;
+font-size: 16px;
+}
+form a{
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: inline;
+    padding: 8px;
+    font-size: inherit;
+}
+ button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    border-radius: 6px;
+    height:auto;
+    width:300px;
+    font-size: 18px;
+    text-decoration: solid;
+}
+button#facebook{
+background-color: Blue;
+color:#fff;
+}
+button#google{
+    background-color: #EF5350;
+    color:#fff;
+}
+button#epam{
+    background-color: #FFCA28;
+    color:#fff;
+}
+
